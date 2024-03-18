@@ -4,7 +4,9 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 import { elementPlusPlugin } from './plugins/element-plus'
-import 'uno.css'
+import 'tailwindcss/tailwind.css'
+import '@/styles/tailwind.css'
+import '@/styles/index.scss'
 
 const app = createApp(App)
 
